@@ -88,7 +88,7 @@ describe Magnum::Addons::Campfire do
 
       it "raises error" do
         expect { addon.run(payload) }.
-          to raise_error Magnum::Addons::Campfire::Error
+          to raise_error Magnum::Addons::Campfire::Error, "Delivery failed"
       end
     end
   end
