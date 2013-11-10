@@ -10,7 +10,7 @@ Example:
 require "magnum/addons/campfire"
 
 # Initialize addon
-addon = Magnum::Addon::Campfire.new(
+addon = Magnum::Addons::Campfire.new(
   api_token: "token", 
   subdomain: "team", 
   room: "room id"
